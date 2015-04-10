@@ -1,0 +1,510 @@
+﻿<root>
+  <ListAnimal>
+
+    <Animal>
+      <Name>Chicken</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/chicken.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/chicken.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/chicken.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/chicken.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/chicken.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/chicken.mp3</SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Cock</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/cock.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/cock.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/cock.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/cock.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/cock.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/cock.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Fox</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/fox.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/fox.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/fox.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/fox.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/fox.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/fox.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Wolf</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/wolf.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/wolf.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/wolf.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/wolf.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/wolf.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/wolf.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Dolphin</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/dolphin.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/dolphin.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/dolphin.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/dolphin.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/dolphin.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/dolphin.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Donkey</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/donkey.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/donkey.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/donkey.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/donkey.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/donkey.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/donkey.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Sheep</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/sheep.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/sheep.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/sheep.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/sheep.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/sheep.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/sheep.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Bee</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/bee.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/bee.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/bee.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/bee.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/bee.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/bee.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Mouse</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/mouse.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/mouse.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/mouse.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/mouse.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/mouse.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/mouse.mp3</SoundAnimal>
+    </Animal>
+
+
+
+
+    <Animal>
+      <Name>Bat</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/bat.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/bat.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/bat.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/bat.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/bat.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/bat.mp3</SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Tiger</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/tiger.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/tiger.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/tiger.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/tiger.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/tiger.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/tiger.mp3</SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Squid</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/squid.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/squid.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/squid.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/squid.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/squid.mp3</SoundHuman>
+      <SoundAnimal> </SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Polar</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/polar.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/polar.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/polar.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/polar.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/polar.mp3</SoundHuman>
+      <SoundAnimal> </SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Mole</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/mole.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/mole.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/mole.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/mole.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/mole.mp3</SoundHuman>
+      <SoundAnimal> </SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Monkey</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/monkey.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/monkey.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/monkey.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/monkey.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/monkey.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/monkey.mp3</SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Gorilla</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/gorilla.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/gorilla.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/gorilla.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/gorilla.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/gorilla.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/gorilla.mp3</SoundAnimal>
+    </Animal>
+
+
+
+
+
+    <Animal>
+      <Name>Panda</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/panda.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/panda.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/panda.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/panda.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/panda.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/panda.mp3</SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Snake</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/snake.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/snake.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/snake.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/snake.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/snake.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/snake.mp3</SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Fox</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/fox.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/fox.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/fox.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/fox.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/fox.mp3</SoundHuman>
+      <SoundAnimal> </SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Giraffe</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/graffi.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/graffi.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/graffi.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/graffi.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/graffi.mp3</SoundHuman>
+      <SoundAnimal> </SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Slamander</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/slamander.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/slamander.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/slamander.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/slamander.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/slamander.mp3</SoundHuman>
+      <SoundAnimal> </SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Cat</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/cat.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/cat.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/cat.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/cat.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/cat.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/cat.mp3</SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Chicken</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/chicken.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/chicken.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/chicken.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/chicken.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/chicken.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/chicken.mp3</SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Rabbit</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/rabbit.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/rabbit.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/rabbit.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/rabbit.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/rabbit.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/rabbit.mp3</SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Bambi</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/bambi.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/bambi.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/bambi.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/bambi.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/bambi.mp3</SoundHuman>
+      <SoundAnimal> </SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Cow</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/cow.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/cow.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/cow.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/cow.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/cow.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/cow.mp3</SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Bear</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/bear.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/bear.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/bear.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/bear.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/bear.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/bear.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Bird</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/bird.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/bird.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/bird.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/bird.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/bird.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/bird.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Camel</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/camel.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/camel.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/camel.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/camel.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/camel.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/camel.mp3</SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Crocodile</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/crocodile.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/crocodile.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/crocodile.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/crocodile.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/crocodile.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/crocodile.mp3</SoundAnimal>
+    </Animal>
+
+    <Name>Crab</Name>
+    <Cartoon>ms-appx:///images/animals/cartoon/crab.png</Cartoon>
+    <Real>ms-appx:///images/animals/real/crab.jpg</Real>
+    <Letter>ms-appx:///images/animals/letter/crab.png</Letter>
+    <ImageLetter>ms-appx:///images/animals/imageletter/crab.png</ImageLetter>
+    <SoundHuman>ms-appx:///sounds/human/crab.mp3</SoundHuman>
+    <SoundAnimal> </SoundAnimal>
+
+    <Animal>
+      <Name>Dog</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/dog.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/dog.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/dog.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/dog.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/dog.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/dog.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Dolphin</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/dolphin.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/dolphin.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/dolphin.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/dolphin.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/dolphin.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/dolphin.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Elephant</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/elephant.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/elephant.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/elephant.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/elephant.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/elephant.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/elephant.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Frog</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/frog.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/frog.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/frog.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/frog.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/frog.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/frog.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Hippo</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/hippo.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/hippo.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/hippo.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/hippo.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/hippo.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/hippo.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Koala</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/kaola.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/kaola.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/kaola.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/kaola.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/kaola.mp3</SoundHuman>
+      <SoundAnimal> </SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Lion</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/lion.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/lion.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/lion.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/lion.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/lion.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/lion.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Lobster</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/lobster.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/lobster.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/lobster.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/lobster.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/lobster.mp3</SoundHuman>
+      <SoundAnimal> </SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Octopus</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/octopus.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/octopus.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/octopus.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/octopus.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/octopus.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/octopus.mp3</SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Owl</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/owl.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/owl.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/owl.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/owl.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/owl.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/owl.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Pelican</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/pelican.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/pelican.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/pelican.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/pelican.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/pelican.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/pelican.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Pig</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/pig.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/pig.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/pig.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/pig.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/pig.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/pig.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Seal</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/seal.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/seal.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/seal.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/seal.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/seal.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/seal.mp3</SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Shark</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/shark.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/shark.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/shark.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/shark.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/shark.mp3</SoundHuman>
+      <SoundAnimal> </SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Stork</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/stork.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/stork.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/stork.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/stork.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/stork.mp3</SoundHuman>
+      <SoundAnimal> </SoundAnimal>
+    </Animal>
+
+    <Animal>
+      <Name>Turtle</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/turtle.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/turtle.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/turtle.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/turtle.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/turtle.mp3</SoundHuman>
+      <SoundAnimal> </SoundAnimal>
+    </Animal>
+
+
+    <Animal>
+      <Name>Whale</Name>
+      <Cartoon>ms-appx:///images/animals/cartoon/whale.png</Cartoon>
+      <Real>ms-appx:///images/animals/real/whale.jpg</Real>
+      <Letter>ms-appx:///images/animals/letter/whale.png</Letter>
+      <ImageLetter>ms-appx:///images/animals/imageletter/whale.png</ImageLetter>
+      <SoundHuman>ms-appx:///sounds/human/whale.mp3</SoundHuman>
+      <SoundAnimal>ms-appx:///sounds/animals/whale.mp3</SoundAnimal>
+    </Animal>
+
+  </ListAnimal>
+</root>

@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NANA</Machine>
+    <WindowsUser>Cong</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>86af272e-0638-4518-9355-2432ef218880</PackageIdentityName>
+    <IntermediateOutputPath>E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\RescueAnimalsUniversal.WindowsPhone.exe">
+      <PackagePath>RescueAnimalsUniversal.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\a1.png">
+      <PackagePath>images\animals\a1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\a2.png">
+      <PackagePath>images\animals\a2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\a3.png">
+      <PackagePath>images\animals\a3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\b1.png">
+      <PackagePath>images\animals\b1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\b2.png">
+      <PackagePath>images\animals\b2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\b3.png">
+      <PackagePath>images\animals\b3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\c1.png">
+      <PackagePath>images\animals\c1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\c2.png">
+      <PackagePath>images\animals\c2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\c3.png">
+      <PackagePath>images\animals\c3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\camel.png">
+      <PackagePath>images\animals\cartoon\camel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\crab.png">
+      <PackagePath>images\animals\cartoon\crab.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\crodicole.png">
+      <PackagePath>images\animals\cartoon\crodicole.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\dog.png">
+      <PackagePath>images\animals\cartoon\dog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\dolphin.png">
+      <PackagePath>images\animals\cartoon\dolphin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\frog.png">
+      <PackagePath>images\animals\cartoon\frog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\hippo.png">
+      <PackagePath>images\animals\cartoon\hippo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\koala.png">
+      <PackagePath>images\animals\cartoon\koala.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\lion.png">
+      <PackagePath>images\animals\cartoon\lion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\lobster.png">
+      <PackagePath>images\animals\cartoon\lobster.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\octopus.png">
+      <PackagePath>images\animals\cartoon\octopus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\pig.png">
+      <PackagePath>images\animals\cartoon\pig.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\seal.png">
+      <PackagePath>images\animals\cartoon\seal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\shark.png">
+      <PackagePath>images\animals\cartoon\shark.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\turtle.png">
+      <PackagePath>images\animals\cartoon\turtle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cartoon\whale.png">
+      <PackagePath>images\animals\cartoon\whale.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cat1.png">
+      <PackagePath>images\animals\cat1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cat2.png">
+      <PackagePath>images\animals\cat2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cat3.png">
+      <PackagePath>images\animals\cat3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cow1.png">
+      <PackagePath>images\animals\cow1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cow2.png">
+      <PackagePath>images\animals\cow2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\cow3.png">
+      <PackagePath>images\animals\cow3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\d1.png">
+      <PackagePath>images\animals\d1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\d2.png">
+      <PackagePath>images\animals\d2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\d3.png">
+      <PackagePath>images\animals\d3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\e1.png">
+      <PackagePath>images\animals\e1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\e2.png">
+      <PackagePath>images\animals\e2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\e3.png">
+      <PackagePath>images\animals\e3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\f1.png">
+      <PackagePath>images\animals\f1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\f2.png">
+      <PackagePath>images\animals\f2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\f3.png">
+      <PackagePath>images\animals\f3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\g1.png">
+      <PackagePath>images\animals\g1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\g2.png">
+      <PackagePath>images\animals\g2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\g3.png">
+      <PackagePath>images\animals\g3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\h1.png">
+      <PackagePath>images\animals\h1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\h2.png">
+      <PackagePath>images\animals\h2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\h3.png">
+      <PackagePath>images\animals\h3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\k1.png">
+      <PackagePath>images\animals\k1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\k2.png">
+      <PackagePath>images\animals\k2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\k3.png">
+      <PackagePath>images\animals\k3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\z.png">
+      <PackagePath>images\animals\z.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\avatars\u0.png">
+      <PackagePath>images\avatars\u0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\icons\black_star.png">
+      <PackagePath>images\icons\black_star.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\icons\gold_star.png">
+      <PackagePath>images\icons\gold_star.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\avatars\u1.png">
+      <PackagePath>images\avatars\u1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\avatars\u2.png">
+      <PackagePath>images\avatars\u2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\avatars\u3.png">
+      <PackagePath>images\avatars\u3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\avatars\u4.png">
+      <PackagePath>images\avatars\u4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\avatars\u5.png">
+      <PackagePath>images\avatars\u5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\stages\s1.png">
+      <PackagePath>images\stages\s1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\stages\s2.png">
+      <PackagePath>images\stages\s2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\stages\s3.png">
+      <PackagePath>images\stages\s3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\stages\s4.png">
+      <PackagePath>images\stages\s4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\stages\s5.png">
+      <PackagePath>images\stages\s5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\stages\s6.png">
+      <PackagePath>images\stages\s6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\data\MoTaDuLieu.txt">
+      <PackagePath>data\MoTaDuLieu.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\data\animals.xml">
+      <PackagePath>data\animals.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\data\avatars.xml">
+      <PackagePath>data\avatars.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\data\stages.xml">
+      <PackagePath>data\stages.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\data\users.xml">
+      <PackagePath>data\users.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\real\camel.jpg">
+      <PackagePath>images\animals\real\camel.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\real\crab.jpg">
+      <PackagePath>images\animals\real\crab.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\real\crocodile.jpg">
+      <PackagePath>images\animals\real\crocodile.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\real\dog.jpg">
+      <PackagePath>images\animals\real\dog.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\real\dolphin.jpg">
+      <PackagePath>images\animals\real\dolphin.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\real\frog.jpg">
+      <PackagePath>images\animals\real\frog.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\real\hippo.jpg">
+      <PackagePath>images\animals\real\hippo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\real\kaola.jpg">
+      <PackagePath>images\animals\real\kaola.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\real\lion.jpg">
+      <PackagePath>images\animals\real\lion.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\images\animals\real\lobster.jpg">
+      <PackagePath>images\animals\real\lobster.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\sounds\animals\cat1.wav">
+      <PackagePath>sounds\animals\cat1.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\sounds\animals\cat2.wav">
+      <PackagePath>sounds\animals\cat2.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\sounds\animals\cow1.wav">
+      <PackagePath>sounds\animals\cow1.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\sounds\animals\cow2.wav">
+      <PackagePath>sounds\animals\cow2.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\sounds\systems\correct.wav">
+      <PackagePath>sounds\systems\correct.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.Shared\sounds\systems\wrong.wav">
+      <PackagePath>sounds\systems\wrong.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\mainviews\xCreateUser.xbf">
+      <PackagePath>mainviews\xCreateUser.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\mainviews\xHightScores.xbf">
+      <PackagePath>mainviews\xHightScores.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\mainviews\xHowToPlay.xbf">
+      <PackagePath>mainviews\xHowToPlay.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\mainviews\xMenuPage.xbf">
+      <PackagePath>mainviews\xMenuPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\mainviews\xSelectUser.xbf">
+      <PackagePath>mainviews\xSelectUser.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\mainviews\xStartPage.xbf">
+      <PackagePath>mainviews\xStartPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\stage_1\stage_1_01.xbf">
+      <PackagePath>stage_1\stage_1_01.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\stage_2\stage_2_01.xbf">
+      <PackagePath>stage_2\stage_2_01.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\xLoadPage.xbf">
+      <PackagePath>xLoadPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\BlankPage1.xbf">
+      <PackagePath>BlankPage1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\LoadPage.xbf">
+      <PackagePath>LoadPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\MainViews\HightScores.xbf">
+      <PackagePath>MainViews\HightScores.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\MainViews\HowToPlay.xbf">
+      <PackagePath>MainViews\HowToPlay.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\MainViews\MenuPage.xbf">
+      <PackagePath>MainViews\MenuPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\MainViews\SelectUser.xbf">
+      <PackagePath>MainViews\SelectUser.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\MainViews\StartPage.xbf">
+      <PackagePath>MainViews\StartPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\Stages\Stage_1.xbf">
+      <PackagePath>Stages\Stage_1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\Stages\Stage_2.xbf">
+      <PackagePath>Stages\Stage_2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\Styles\Styles.xbf">
+      <PackagePath>Styles\Styles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\RescueAnimalsUniversal.WindowsPhone.xr.xml">
+      <PackagePath>RescueAnimalsUniversal.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Project Competition\Rescue Animals Universal\RescueAnimalsUniversal\RescueAnimalsUniversal\RescueAnimalsUniversal.WindowsPhone\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="RescueAnimalsUniversal.mainviews.xCreateUser"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RescueAnimalsUniversal.mainviews"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <MediaElement x:Name="sound" Source="/sounds/background.wav" AutoPlay="True" Volume="50" IsLooping="True" />
+
+        <Image HorizontalAlignment="Stretch" Grid.RowSpan="10" Grid.ColumnSpan="10"  VerticalAlignment="Stretch" Source="/images/backgrounds/main.jpg" Stretch="Fill" />
+
+        <Image Source="/images/systems/backbutton.png" Height="100" Width="70" Stretch="Fill" Margin="0,-20,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="10" Grid.RowSpan="10" Tapped="Image_Tapped" />
+        <TextBlock Name="txtTieuDe" Text="hi" Style="{StaticResource baseTextBlock}" HorizontalAlignment="Center" Margin="0,10,0,0" />
+
+        <StackPanel x:Name="stackCreateUser" Style="{StaticResource stackCreateUser}" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" >
+            <Image Name="imgAvatar" Source="/images/avatars/user1.png" Height="100" Width="100" />
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Foreground="Black" FontWeight="Bold" Text="your name" HorizontalAlignment="Left" VerticalAlignment="Center" Style="{StaticResource xUserName}" />
+                <TextBox Name="txtName" Grid.Row="1" TextChanged="textChange"  Style="{StaticResource xUserNameTB}"/>
+
+            </Grid>
+        </StackPanel>
+        
+        <Button Click="clickCreateUser" Content="Create User" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="252,0,234,1" FontSize="30"/>
+
+
+        <FlipView  SelectionChanged="selectionChanged" x:Name="listAvatar" Style="{StaticResource xFlipviewCreateUser}" >
+            <FlipView.ItemTemplate>
+                <DataTemplate>
+                    <Image Source="{Binding ImageUri}"  Style="{StaticResource xImageUser}" />
+                </DataTemplate>
+            </FlipView.ItemTemplate>
+        </FlipView>
+    </Grid>
+</Page>

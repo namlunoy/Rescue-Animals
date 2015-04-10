@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Files><file>\RescueAnimalsUniversal.WindowsPhone.exe</file></Files>

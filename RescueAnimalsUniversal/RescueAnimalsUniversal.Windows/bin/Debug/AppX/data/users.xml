@@ -1,0 +1,17 @@
+﻿<root>
+  <ListUser>
+    <User>
+      <Name>Cong</Name>
+      <LinkAvatar>ms-appx:///images/avatars/user3.png</LinkAvatar>
+      <ListPoint>
+        <Point>0</Point>
+        <Point>0</Point>
+        <Point>0</Point>
+        <Point>0</Point>
+        <Point>0</Point>
+        <Point>0</Point>
+        <Point>0</Point>
+      </ListPoint>
+    </User>
+  </ListUser>
+</root>

@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="RescueAnimalsUniversal.mainviews.xStartPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RescueAnimalsUniversal.mainviews"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <MediaElement x:Name="sound" Source="/sounds/background.wav" AutoPlay="True" Volume="50" IsLooping="True" />
+        <Image HorizontalAlignment="Stretch" Grid.RowSpan="10" Grid.ColumnSpan="10"  VerticalAlignment="Stretch" Source="/images/backgrounds/main.jpg" Stretch="Fill" />
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <Button x:ConnectionId='1' Style="{StaticResource xButton}" Background="Yellow"                    FontSize="30" HorizontalAlignment="Center">Start</Button>
+            <Button x:ConnectionId='2' Style="{StaticResource xButton}" Background="Beige"                        FontSize="30" HorizontalAlignment="Center">High Score</Button>
+            <Button x:ConnectionId='3' Style="{StaticResource xButton}" Background="Green"                    FontSize="30" HorizontalAlignment="Center">Quit</Button>
+      
+
+        </StackPanel>
+    </Grid>
+</Page>
+

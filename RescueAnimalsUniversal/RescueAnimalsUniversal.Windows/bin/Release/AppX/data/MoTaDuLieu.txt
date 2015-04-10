@@ -1,0 +1,10 @@
+﻿- Phần  mô tả User, Phần này cần lưu trong ApplicationData vì nó cần thêm sửa xóa, còn các phần khác vẫn làm bình thường cũng được
+
+- Phần mô tả stage do số lượng có thể thay đổi, do đó mỗi lần thay đổi số lượng cần phải thay đổi cả trong code Stage.cs
+	+ Hàm GenarateFileStringContent trong UserController.cs
+	+ CreateDefaultFile trong UserController.cs
+	+ Các thuộc tính trong User.cs
+
+- Các thành phần của 1 cửa:
++ Phần Begin()
++ Phần Finish

@@ -1,0 +1,119 @@
+﻿<Page
+    x:Class="RescueAnimalsUniversal.stage_1.stage_1_01"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RescueAnimalsUniversal.stage_1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <MediaElement Volume="100" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="media"/>
+        <Grid Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+     
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0">
+                <FlipView Padding="0" Margin="0" IsEnabled="False" Name="groupFlipView"    HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <FlipView.Items>
+                        <FlipViewItem>
+                            <FlipView   Style="{StaticResource xFlipView}" Margin="0"  x:Name="flipView1" >
+                                <FlipView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                                            <Image Source="{Binding CartoonImageUri}" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                                        </Grid>
+                                    </DataTemplate>
+                                </FlipView.ItemTemplate>
+                            </FlipView>
+                        </FlipViewItem>
+                        <FlipViewItem>
+                            <FlipView    Style="{StaticResource xFlipView}"  x:Name="flipView2" >
+                                <FlipView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                                            <Image Source="{Binding CartoonImageUri}" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                                        </Grid>
+                                    </DataTemplate>
+                                </FlipView.ItemTemplate>
+                            </FlipView>
+                        </FlipViewItem>
+                        <FlipViewItem>
+                            <FlipView  Style="{StaticResource xFlipView}"  x:Name="flipView3" >
+                                <FlipView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                                            <Image Source="{Binding CartoonImageUri}" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                                        </Grid>
+                                    </DataTemplate>
+                                </FlipView.ItemTemplate>
+                            </FlipView>
+                        </FlipViewItem>
+                    </FlipView.Items>
+                </FlipView>
+            </StackPanel>
+
+            <FlipView Name="groupGridView"   HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1">
+                <FlipView.Items>
+                    <FlipViewItem>
+                        <GridView x:ConnectionId='5' x:Name="gridView1" Style="{StaticResource gridView4x}"                               >
+                            <GridView.ItemTemplate>
+                                <DataTemplate >
+                                    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <Image Source="{Binding RealImageUri}" Style="{StaticResource ImageGridView4x}"  HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Grid>
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                        </GridView>
+                    </FlipViewItem>
+                    <FlipViewItem>
+                        <GridView x:ConnectionId='4' x:Name="gridView2" Style="{StaticResource gridView9x}"                               >
+                            <GridView.ItemTemplate>
+                                <DataTemplate >
+                                    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <Image Source="{Binding RealImageUri}" Style="{StaticResource ImageGridView9x}"  HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Grid>
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                        </GridView>
+                    </FlipViewItem>
+                    <FlipViewItem>
+                        <GridView x:ConnectionId='3' x:Name="gridView3" Style="{StaticResource gridView16x}"                               >
+                            <GridView.ItemTemplate>
+                                <DataTemplate >
+                                    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <Image Source="{Binding RealImageUri}" Style="{StaticResource ImageGridView16x}"  HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+                                    </Grid>
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                        </GridView>
+                    </FlipViewItem>
+                </FlipView.Items>
+            </FlipView>
+        </Grid>
+
+
+
+
+        <Border x:Name="border" Grid.RowSpan="2" Background="Black" Opacity="0.5" >
+            <Grid>
+
+            </Grid>
+        </Border>
+        <Button x:ConnectionId='1' Name="okButton"                 Content="OK" Grid.RowSpan="2" Foreground="White" BorderBrush="White"  Style="{StaticResource xButton}" Width="auto" VerticalAlignment="Bottom" />
+
+        <TextBlock Name="txtHuongDan" Opacity="1"  Grid.RowSpan="2" Foreground="White" TextWrapping="Wrap" Text="Hướng dẫn: Chọn con vật tương ứng nhanh nhất có thể" Style="{StaticResource baseTextBlock}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <TextBlock Text="Cửa 1" HorizontalAlignment="Center" />
+        <Button x:ConnectionId='2'                     Style="{StaticResource xBackButton}" />
+
+    </Grid>
+</Page>
+

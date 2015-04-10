@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="RescueAnimalsUniversal.mainviews.xMenuPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RescueAnimalsUniversal.mainviews"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image HorizontalAlignment="Stretch" Grid.RowSpan="10" Grid.ColumnSpan="10"  VerticalAlignment="Stretch" Source="/images/backgrounds/main.jpg" Stretch="Fill" />
+        <MediaElement x:Name="sound" Source="/sounds/background.wav" AutoPlay="True" Volume="50" IsLooping="True" />
+
+        <Image x:ConnectionId='1' Source="/images/systems/backbutton.png" Height="100" Width="70" Stretch="Fill" Margin="0,-20,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="10" Grid.RowSpan="10"                       />
+        <TextBlock Name="txtName" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Top" />
+        <GridView x:ConnectionId='2' x:Name="listStage"                                 Style="{StaticResource MenuGridView}"  >
+
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Style="{StaticResource NameStage }" HorizontalAlignment="Center" TextAlignment="Center" Foreground="Black" VerticalAlignment="Bottom" Text="{Binding Name}" Grid.Row="0" />
+                        <Image Style="{StaticResource ImageStageItem}" Source="{Binding ImageUri}" Grid.Row="1" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="2" >
+                            <Image Style="{StaticResource ImageStar1}"  Source="{Binding Star1Uri}" VerticalAlignment="Bottom" />
+                            <Image Style="{StaticResource ImageStar2}"  Source="{Binding Star2Uri}" VerticalAlignment="Bottom"/>
+                            <Image Style="{StaticResource ImageStar1}"  Source="{Binding Star3Uri}" VerticalAlignment="Bottom"/>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+    </Grid>
+</Page>
+

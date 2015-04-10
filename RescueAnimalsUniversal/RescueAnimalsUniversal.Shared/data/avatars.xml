@@ -1,0 +1,49 @@
+﻿<root>
+  <ListAvatar>
+    <Avatar>
+      <ID>1</ID>
+      <Link>ms-appx:///images/avatars/user1.png</Link>
+    </Avatar>
+
+    <Avatar>
+      <ID>2</ID>
+      <Link>ms-appx:///images/avatars/user2.png</Link>
+    </Avatar>
+
+    <Avatar>
+      <ID>3</ID>
+      <Link>ms-appx:///images/avatars/user3.png</Link>
+    </Avatar>
+
+    <Avatar>
+      <ID>4</ID>
+      <Link>ms-appx:///images/avatars/user4.png</Link>
+    </Avatar>
+
+    <Avatar>
+      <ID>5</ID>
+      <Link>ms-appx:///images/avatars/user5.png</Link>
+    </Avatar>
+
+    <Avatar>
+      <ID>6</ID>
+      <Link>ms-appx:///images/avatars/user6.png</Link>
+    </Avatar>
+
+    <Avatar>
+      <ID>7</ID>
+      <Link>ms-appx:///images/avatars/user7.png</Link>
+    </Avatar>
+
+    <Avatar>
+      <ID>8</ID>
+      <Link>ms-appx:///images/avatars/user8.png</Link>
+    </Avatar>
+
+    <Avatar>
+      <ID>9</ID>
+      <Link>ms-appx:///images/avatars/user9.png</Link>
+    </Avatar>
+    
+  </ListAvatar>
+</root>

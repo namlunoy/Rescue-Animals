@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>c38abb51-5b4d-447f-83cc-b7265c197165</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>RescueAnimalsUniversal</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)controllers\AnimalController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)controllers\AvatarController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)controllers\Helper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)controllers\StageController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)controllers\StaticObjects.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)controllers\UserController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)mainviews\xCreateUser.xaml.cs">
+      <DependentUpon>xCreateUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)mainviews\xHightScores.xaml.cs">
+      <DependentUpon>xHightScores.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)mainviews\xMenuPage.xaml.cs">
+      <DependentUpon>xMenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)mainviews\xSelectUser.xaml.cs">
+      <DependentUpon>xSelectUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)mainviews\xStartPage.xaml.cs">
+      <DependentUpon>xStartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)models\Animal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)models\Avatar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)models\Stage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)models\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)stage_1\xStage_1.xaml.cs">
+      <DependentUpon>xStage_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)stage_2\xStage_2.xaml.cs">
+      <DependentUpon>xStage_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)stage_3\xStage_3.xaml.cs">
+      <DependentUpon>xStage_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)stage_4\xStage_4.xaml.cs">
+      <DependentUpon>xStage_4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)stage_5\xStage_5.xaml.cs">
+      <DependentUpon>xStage_5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)stage_6\xStage_6.xaml.cs">
+      <DependentUpon>xStage_6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Stage_7.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Stage_8.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)xLoadPage.xaml.cs">
+      <DependentUpon>xLoadPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)mainviews\xCreateUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)mainviews\xHightScores.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)mainviews\xMenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)mainviews\xSelectUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)mainviews\xStartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)stage_1\xStage_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)stage_2\xStage_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)stage_3\xStage_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)stage_4\xStage_4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)stage_5\xStage_5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)stage_6\xStage_6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)xLoadPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)data\animals.xml" />
+    <Content Include="$(MSBuildThisFileDirectory)data\avatars.xml" />
+    <Content Include="$(MSBuildThisFileDirectory)data\MoTaDuLieu.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)data\stages.xml" />
+    <Content Include="$(MSBuildThisFileDirectory)data\users.xml" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\bambi.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\bat.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\bear.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\bee.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\bird.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\camel.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\cat.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\chicken.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\cock.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\cow.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\crab.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\crocodile.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\dog.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\dolphin.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\donkey.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\duck.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\elephant.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\fox.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\frog.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\gorilla.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\graffi.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\hippo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\horse.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\kaola.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\lion.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\lobster.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\mole.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\mongoose.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\monkey.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\mouse.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\octopus.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\owl.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\panda.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\pelican.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\pig.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\polar.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\rabbit.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\seal.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\shark.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\sheep.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\salamender.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\snake.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\squid.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\squirrel.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\stork.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\tiger.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\turtle.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\whale.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\cartoon\wolf.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\bambi.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\bat.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\bear.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\bee.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\bird.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\camel.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\cat.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\chicken.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\cock.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\cow.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\crab.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\crocodile.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\dog.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\dolphin.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\donkey.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\duck.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\elephant.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\fox.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\frog.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\gorilla.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\graffi.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\hippo.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\horse.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\kaola.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\lion.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\lobster.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\mole.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\mongoose.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\monkey.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\mouse.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\octopus.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\owl.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\panda.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\pelican.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\pig.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\polar.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\rabbit.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\seal.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\shark.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\sheep.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\salamender.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\snake.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\squid.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\squirrel.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\stork.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\tiger.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\turtle.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\whale.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\wolf.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\animals\real\z.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\avatars\user1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\avatars\user2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\avatars\user3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\avatars\user4.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\avatars\user5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\avatars\user6.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\avatars\user7.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\avatars\user8.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\avatars\user9.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\backgrounds\loading.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\backgrounds\loading2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\backgrounds\main.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\backgrounds\man3.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\backgrounds\man1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\backgrounds\man2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\backgrounds\man4.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\backgrounds\man5.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\backgrounds\man6.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\backgrounds\man7.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\backgrounds\man8.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\helps\help1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\helps\help2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\helps\help3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\helps\help4.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\helps\help5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\helps\help6.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\helps\help7.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\icons\black_star.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\icons\snails.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\icons\gold_star.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\icons\logo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\stages\stage1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\stages\stage2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\stages\stage3.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\stages\stage4.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\stages\stage5.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\stages\stage6.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\stages\stage7.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\stages\stage8.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\background-word.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\bangdiem.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\box.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\box2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\button3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\button2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\button.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\blank.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\backbutton.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\highscore.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\mainbutton.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\quitbutton copy.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\start2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\startbutton.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\volume.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\z2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\systems\z.png" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\background.wav" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\bat.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\bear.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\bee.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\bird.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\camel.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\cat.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\chicken.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\cock.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\cow.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\crocodile.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\dog.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\dolphin.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\donkey.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\duck.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\elephant.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\fox.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\frog.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\gorrila.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\hippo.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\horse.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\kaola.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\lion.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\monkey.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\mouse.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\octopus.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\owl.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\panda.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\pelican.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\pig.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\rabbit.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\seal.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\sheep.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\snake.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\tiger.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\whale.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\animals\wolf.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\bambi.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\bat.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\bear.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\bee.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\bird.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\camel.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\cat.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\chicken.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\cook.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\cow.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\crab.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\crocodile.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\dog.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\dolphin.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\donkey.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\duck.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\elephant.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\fox.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\frog.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\gorilla.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\graffi.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\hippo.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\horse.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\kangaroo.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\koala.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\lion.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\lobster.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\mole.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\mongoose.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\monkey.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\mouse.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\octopus.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\owl.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\panda.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\pelican.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\pig.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\polar.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\rabbit.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\seal.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\shark.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\sheep.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\salamender.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\snake.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\squid.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\squirrel.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\stork.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\tiger.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\turtle.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\whale.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\human\wolf.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\systems\correct.wav" />
+    <Content Include="$(MSBuildThisFileDirectory)sounds\systems\wrong.wav" />
+  </ItemGroup>
+</Project>

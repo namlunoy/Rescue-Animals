@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="11350CongHoang.RescueAnimals" Publisher="CN=FC3A7C85-04F4-438A-A0E1-9CF1122E3A83" Version="1.1.0.11" />
+  <mp:PhoneIdentity PhoneProductId="86af272e-0638-4518-9355-2432ef218880" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Rescue Animals</DisplayName>
+    <PublisherDisplayName>conghoang</PublisherDisplayName>
+    <Logo>Assets\icon50.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="RescueAnimalsUniversal.WindowsPhone.App">
+      <m3:VisualElements DisplayName="Rescue Animals" Square150x150Logo="Assets\icon150.png" Square44x44Logo="Assets\icon44.png" Description="RescueAnimalsUniversal.WindowsPhone" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\icon310.png" Square71x71Logo="Assets\icon71.png">
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\splash480.jpg" />
+        <m3:ApplicationView MinWidth="width320" />
+        <!--Used in XAML Designer. DO NOT REMOVE-->
+        <m3:InitialRotationPreference>
+          <m3:Rotation Preference="landscape" />
+          <m3:Rotation Preference="landscapeFlipped" />
+        </m3:InitialRotationPreference>
+      </m3:VisualElements>
+    </Application>
+  </Applications>
+</Package>

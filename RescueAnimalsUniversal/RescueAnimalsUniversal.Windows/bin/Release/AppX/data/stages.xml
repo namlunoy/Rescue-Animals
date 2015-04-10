@@ -1,0 +1,50 @@
+﻿<root>
+  <ListStage>
+    <Stage>
+      <ID>1</ID>
+      <Name>stage 1</Name>
+      <Image>ms-appx:///images/stages/stage1.jpg</Image>
+      <MaxPoint>29</MaxPoint>
+    </Stage>
+
+    <Stage>
+      <ID>2</ID>
+      <Name>stage 2</Name>
+      <Image>ms-appx:///images/stages/stage2.jpg</Image>
+      <MaxPoint>29</MaxPoint>
+    </Stage>
+
+    <Stage>
+      <ID>3</ID>
+      <Name>stage 3</Name>
+      <Image>ms-appx:///images/stages/stage3.jpg</Image>
+       <MaxPoint>29</MaxPoint>
+    </Stage>
+
+    <Stage>
+      <ID>4</ID>
+      <Name>stage 4</Name>
+      <Image>ms-appx:///images/stages/stage4.jpg</Image>
+       <MaxPoint>14</MaxPoint>
+    </Stage>
+
+    
+    <Stage>
+      <ID>5</ID>
+      <Name>stage 5</Name>
+      <Image>ms-appx:///images/stages/stage5.jpg</Image>
+       <MaxPoint>29</MaxPoint>
+    </Stage>
+
+    
+    <Stage>
+      <ID>6</ID>
+      <Name>stage 6</Name>
+      <Image>ms-appx:///images/stages/stage6.jpg</Image>
+       <MaxPoint>29</MaxPoint>
+    </Stage>
+
+
+
+  </ListStage>
+</root>
